@@ -25,7 +25,7 @@ h1 {
 }
 
 .serverResponseLabelError {
-  color: red;
+  color: red; 
 }
 
 /** Set ids using widget.getElement().setId("idOfElement") */
