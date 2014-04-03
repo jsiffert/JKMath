@@ -1,0 +1,76 @@
+@font-face {
+	font-family: economica; 
+	src: url(./font/Economica-Regular.ttf);
+}
+@font-face {
+	font-family: londrina; 
+	src: url(./font/LondrinaShadow-Regular.ttf);
+}
+
+header {
+	height: 150px;
+	background-color: #6fa8dc;
+	margin-top: -20px; 
+	font-family: londrina; 
+	font-size: 125px; 
+	text-align: center; 
+	padding-top: 15px; 
+}
+
+head {
+	margin: 0px 0px 0px 0px; 
+	
+}
+
+body {
+  margin: 0px 0px 0px 0px;
+  background-color: #d9d9d9;
+  font-size: 75px; 
+  font-family: economica; 
+
+}
+
+#headerlink {
+	height: 50px;
+	padding-left: 15px; 
+	word-spacing: 15px; 
+	background-color: #6fa8dc;
+	font-family: economica; 
+	font-size: 40px; 
+	display: block;
+
+	
+}
+html, body, #wrapper {
+    width: 100%;
+    min-height: 100%
+}
+
+#gradelist {
+	
+	height: 600px;
+	width: 808px; 
+	background-color: #FFFFFF;
+	margin: 15px auto; 
+	letter-spacing: 0px;
+    word-spacing: 0px;
+    font-size: 0px;
+}
+#grade {
+	display: inline-block;
+	margin: 0px;
+    padding: 0px;
+	position:relative;
+	height: 200px;
+	width: 200px;
+	background-color: #000000; 
+	border: 1px solid #D9D9D9;
+    font-size: 150px; 
+	font-family: londrina;
+	color: #FFFFFF; 
+	text-align: center;
+	vertical-align:middle;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+display: block;
+}
