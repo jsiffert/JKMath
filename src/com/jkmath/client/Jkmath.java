@@ -123,10 +123,8 @@ public class Jkmath implements EntryPoint {
 						new AsyncCallback<String>() {
 							public void onFailure(Throwable caught) {
 								// Show the RPC error message to the user
-								dialogBox
-										.setText("Remote Procedure Call - Failure");
-								serverResponseLabel
-										.addStyleName("serverResponseLabelError");
+								dialogBox.setText("Remote Procedure Call - Failure");
+								serverResponseLabel.addStyleName("serverResponseLabelError");
 								serverResponseLabel.setHTML(SERVER_ERROR);
 								dialogBox.center();
 								closeButton.setFocus(true);
@@ -134,8 +132,7 @@ public class Jkmath implements EntryPoint {
 
 							public void onSuccess(String result) {
 								dialogBox.setText("Remote Procedure Call");
-								serverResponseLabel
-										.removeStyleName("serverResponseLabelError");
+								serverResponseLabel.removeStyleName("serverResponseLabelError");
 								serverResponseLabel.setHTML(result);
 								dialogBox.center();
 								closeButton.setFocus(true);
